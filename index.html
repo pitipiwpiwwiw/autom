@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chatbox">
+    <div class="bot-message">
+      HI!! Welcome to my chatbot website.<br>
+      Please choose an option below:
+    </div>
+
+    <div class="option">
+      <button onclick="reply('Customer Support')"># Customer Support</button>
+      <button onclick="reply('Apply for Fiber')">@ Apply for Fiber</button>
+      <button onclick="reply('Switch to Home')">~ Switch to Home</button>
+    </div>
+
+    <div id="user-reply"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
